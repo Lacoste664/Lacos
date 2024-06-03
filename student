@@ -1,0 +1,14 @@
+score *search(score *head)
+{
+    int number;
+    score *p1,*p2;
+    printf("input the student's number of searching:");
+    scanf("%d",&number);
+    getchar();
+    while(number!=0)
+    {
+        if(head==NULL)
+        {
+            printf("\n nobody information!\n");
+            return(head);
+        }
